@@ -2,8 +2,6 @@
 
 A private, offline-first AI assistant that answers questions using **live web results**, running a small open-source LLM entirely on your own machine. Built to work on a **4 GB VRAM** GPU.
 
-![Demo screenshot](docs/screenshot.png)
-
 ## Why this exists
 
 Language models only know their training data, so they cannot answer questions about recent events and may confidently invent answers. This project fixes that with **retrieval-augmented generation (RAG)**: the app searches the web first, gives the results to the model, and the model answers from that evidence with numbered citations you can click and verify.
