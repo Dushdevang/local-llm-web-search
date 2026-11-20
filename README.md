@@ -57,7 +57,7 @@ ollama create qwen-local -f Modelfile
 ### 2. Install and run the app
 
 ```bash
-git clone https://github.com/YOUR-USERNAME/local-llm-web-search.git
+git clone https://github.com/Dushdevang/local-llm-web-search.git
 cd local-llm-web-search
 pip install -r requirements.txt
 streamlit run app.py
